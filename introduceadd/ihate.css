@@ -1,0 +1,66 @@
+@import url(reset.css);
+
+.main-container{
+    background-color: #1c1c1c;
+    width: 100vw;
+    height: 100vh;
+}
+
+.top{
+    width: 100vw;
+    height: 20vh;
+
+    background-color: #e2e2e2;
+}
+
+
+.flex{
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle{
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+
+}
+
+.intro{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.introbox{
+    background-color: #fff;
+
+    width: 40vw;
+    height: 50vh;
+}
+
+
+.colorgreen{
+    background-color: #A5FFC9;
+}
+
+.colorred{
+    background-color: #FFB2B2;
+}
+
+.colorblue{
+    background-color: #A5C9FF;
+}
+
+.colorgray{
+    background-color: #e2e2e2;
+}

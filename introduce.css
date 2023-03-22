@@ -1,0 +1,73 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+body{
+    font-family: 'Cute Font', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.main-container{
+    background-color: #1c1c1c;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 12vh;
+
+    font-size: xx-large;
+}
+
+.flex{
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle{
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.first-floor{
+    display: flex;
+    gap: 10rem;
+}
+
+.second-floor{
+    display: flex;
+    gap: 10rem;
+}
+
+.ilove{
+    background-color: #A5FFC9;
+}
+
+.ihate{
+    background-color: #FFB2B2;
+}
+
+.mindset{
+    background-color: #A5C9FF;
+}
+
+.informs{
+    background-color: #e2e2e2;
+}
+
+
+a :hover {
+    transform: scale(1.2);
+    transition: 100ms;
+}
+
