@@ -1,0 +1,42 @@
+/* @import url(reset.css); */
+
+body{
+    /* background-image: url(bonobono.jpg); */
+    /* background-size: cover; */
+
+    background-color: #e2e2e2;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size:large;
+}
+
+.inform{
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+    line-height: 1.75rem;
+}
+
+.hobby{
+    text-align: center;
+    line-height: 1.75rem;
+
+}
+
+a :hover {
+    transform: scale(1.2);
+    transition: 100ms;
+}
+
+.links{
+    display: flex;
+    gap: 2rem;
+}
